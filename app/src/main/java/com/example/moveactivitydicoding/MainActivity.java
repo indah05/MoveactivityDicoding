@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button btnMoveActivity = findViewById(R.id.btn_move_activity);
         btnMoveActivity.setOnClickListener(this);
+
+        Button btnMoveWithDataActivity = findViewById(R.id.btn_move_activity_data);
+        btnMoveWithDataActivity.setOnClickListener(this);
     }
 
     @Override
@@ -23,6 +26,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_move_activity:
                 Intent moveIntent = new Intent(MainActivity.this, MoveActivty.class);
                 startActivity(moveIntent);
+                break;
+            case R.id.btn_move_activity_data:
                 break;
         }
     }

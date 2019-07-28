@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyIntentApp</string>
+    <string name="app_name">MoveactivityDicoding</string>
     <string name="move_activity">Pindah Activity</string>
     <string name="move_with_object">Pindah Activity dengan Object</string>
     <string name="dial_number">Dial a Number</string>
